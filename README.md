@@ -4,9 +4,9 @@ This repository contains the solution for the QA Automation assignment provided 
 
 ---
 
-## ✅ Assignment Breakdown
+## Assignment Breakdown
 
-### 1. Automated Testing ✅
+### 1. Automated Testing 
 - Automated test cases for:
   - **Sign Up**
   - **Sign In**
@@ -17,14 +17,14 @@ This repository contains the solution for the QA Automation assignment provided 
   - Screenshot capture for both passed and failed tests
   - ExtentReports integration
 
-### 2. Manual Test Plan ✅
+### 2. Manual Test Plan 
 - Covers functional, validation, negative, and integration scenarios
 - Includes 22+ test cases
 - Delivered in Excel format
 
 ---
 
-## 📂 Key Files
+## Key Files
 
 - `SignUpTest.java`, `SignInTest.java`, `SignOutTest.java` – core automated tests
 - `TestPlan.xlsx` – full test plan (manual + automated)
@@ -34,7 +34,7 @@ This repository contains the solution for the QA Automation assignment provided 
 
 ---
 
-## ▶️ Run Instructions
+## Run Instructions
 
 ```bash
 Suite-File										Command to Run
