@@ -37,10 +37,4 @@ This repository contains the solution for the QA Automation assignment provided 
 ## Run Instructions
 
 ```bash
-Suite-File										Command to Run
-testng-smoke-suite.xml							mvn test -DsuiteXmlFile=test-suites/testng-smoke-suite.xml
-testng-regression-suite.xml						mvn test -DsuiteXmlFile=test-suites/testng-regression-suite.xml
-sign-up-tests.xml								mvn test -DsuiteXmlFile=test-suites/sign-up-tests.xml
-sign-in-tests.xml								mvn test -DsuiteXmlFile=test-suites/sign-in-tests.xml
-sign-out-tests.xml								mvn test -DsuiteXmlFile=test-suites/sign-out-tests.xml
-testng-all-tests.xml							mvn test -DsuiteXmlFile=test-suites/testng-all-tests.xml
+mvn test
