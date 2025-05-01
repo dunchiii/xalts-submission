@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Xalts Smoke Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Smoke Tests(failed)">
+    <groups>
+      <run>
+        <include name="Smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.dhruvanshtanwar.xalts_submission.SignOutTest">
+        <methods>
+          <include name="testSignOut_WhenLoggedIn_ShouldRedirectToLogin"/>
+          <include name="testSignOut_Button_ShouldBeVisibleAfterLogin"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.dhruvanshtanwar.xalts_submission.SignOutTest -->
+      <class name="com.dhruvanshtanwar.xalts_submission.SignUpTest">
+        <methods>
+          <include name="testSignUp_WithValidCredentials_ShouldSucceed"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.dhruvanshtanwar.xalts_submission.SignUpTest -->
+      <class name="com.dhruvanshtanwar.xalts_submission.SignInTest">
+        <methods>
+          <include name="testSignIn_WithValidCredentials_ShouldSucceed"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.dhruvanshtanwar.xalts_submission.SignInTest -->
+    </classes>
+  </test> <!-- Smoke Tests(failed) -->
+</suite> <!-- Failed suite [Xalts Smoke Suite] -->

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.dhruvanshtanwar.xalts_submission.SignUpTest">
+        <methods>
+          <include name="testSignUp_ConfirmPasswordNotMatching_ShouldNotSucceed"/>
+          <include name="testSignUp_WithEmptyFields_ShouldNotSucceed"/>
+          <include name="testSignUp_WithWeakPassword_ShouldShowValidationError"/>
+          <include name="testSignUp_WithDuplicateEmail_ShouldShowAnAlert"/>
+          <include name="testSignUp_WithValidCredentials_ShouldSucceed"/>
+          <include name="tearDown"/>
+          <include name="testSignUp_WithInvalidEmailFormat_ShouldNotSucceed"/>
+        </methods>
+      </class> <!-- com.dhruvanshtanwar.xalts_submission.SignUpTest -->
+      <class name="com.dhruvanshtanwar.xalts_submission.SignOutTest">
+        <methods>
+          <include name="testSignOut_AccessOnboardingPage_ShouldRedirectToHomePage"/>
+          <include name="testSignOut_Button_ShouldBeVisibleAfterLogin"/>
+          <include name="testSignOut_AccessGetStartedUrl_ShouldRedirectToHomePage"/>
+          <include name="testSignOut_AccessLaunchChildNetworkPage_ShouldRedirectToHomePage"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.dhruvanshtanwar.xalts_submission.SignOutTest -->
+      <class name="com.dhruvanshtanwar.xalts_submission.SignInTest">
+        <methods>
+          <include name="testSignIn_WithUnregisteredEmail_ShouldShowError"/>
+          <include name="testSignIn_WithValidCredentials_ShouldSucceed"/>
+          <include name="testSignIn_WithWrongPassword_ShouldShowError"/>
+          <include name="tearDown"/>
+          <include name="testSignIn_WithEmptyFields_ShouldNotProceed"/>
+        </methods>
+      </class> <!-- com.dhruvanshtanwar.xalts_submission.SignInTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

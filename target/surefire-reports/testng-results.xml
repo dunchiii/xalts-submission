@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-01T14:50:05 IST" name="Surefire suite" finished-at="2025-05-01T14:50:59 IST" duration-ms="53597">
+    <groups>
+      <group name="Regression">
+        <method signature="SignInTest.testSignIn_WithEmptyFields_ShouldNotProceed()[pri:0, instance:tests.SignInTest@27ce24aa]" name="testSignIn_WithEmptyFields_ShouldNotProceed" class="tests.SignInTest"/>
+        <method signature="SignInTest.testSignIn_WithUnregisteredEmail_ShouldShowError()[pri:0, instance:tests.SignInTest@27ce24aa]" name="testSignIn_WithUnregisteredEmail_ShouldShowError" class="tests.SignInTest"/>
+        <method signature="SignInTest.testSignIn_WithValidCredentials_ShouldSucceed()[pri:0, instance:tests.SignInTest@27ce24aa]" name="testSignIn_WithValidCredentials_ShouldSucceed" class="tests.SignInTest"/>
+        <method signature="SignInTest.testSignIn_WithWrongPassword_ShouldShowError()[pri:0, instance:tests.SignInTest@27ce24aa]" name="testSignIn_WithWrongPassword_ShouldShowError" class="tests.SignInTest"/>
+        <method signature="SignOutTest.testSignOut_AccessGetStartedUrl_ShouldRedirectToHomePage()[pri:0, instance:tests.SignOutTest@16ec5519]" name="testSignOut_AccessGetStartedUrl_ShouldRedirectToHomePage" class="tests.SignOutTest"/>
+        <method signature="SignOutTest.testSignOut_AccessLaunchChildNetworkPage_ShouldRedirectToHomePage()[pri:0, instance:tests.SignOutTest@16ec5519]" name="testSignOut_AccessLaunchChildNetworkPage_ShouldRedirectToHomePage" class="tests.SignOutTest"/>
+        <method signature="SignOutTest.testSignOut_AccessOnboardingPage_ShouldRedirectToHomePage()[pri:0, instance:tests.SignOutTest@16ec5519]" name="testSignOut_AccessOnboardingPage_ShouldRedirectToHomePage" class="tests.SignOutTest"/>
+        <method signature="SignOutTest.testSignOut_Button_ShouldBeVisibleAfterLogin()[pri:0, instance:tests.SignOutTest@16ec5519]" name="testSignOut_Button_ShouldBeVisibleAfterLogin" class="tests.SignOutTest"/>
+        <method signature="SignUpTest.testSignUp_ConfirmPasswordNotMatching_ShouldNotSucceed()[pri:0, instance:tests.SignUpTest@2f7298b]" name="testSignUp_ConfirmPasswordNotMatching_ShouldNotSucceed" class="tests.SignUpTest"/>
+        <method signature="SignUpTest.testSignUp_WithDuplicateEmail_ShouldShowAnAlert()[pri:0, instance:tests.SignUpTest@2f7298b]" name="testSignUp_WithDuplicateEmail_ShouldShowAnAlert" class="tests.SignUpTest"/>
+        <method signature="SignUpTest.testSignUp_WithEmptyFields_ShouldNotSucceed()[pri:0, instance:tests.SignUpTest@2f7298b]" name="testSignUp_WithEmptyFields_ShouldNotSucceed" class="tests.SignUpTest"/>
+        <method signature="SignUpTest.testSignUp_WithInvalidEmailFormat_ShouldNotSucceed()[pri:0, instance:tests.SignUpTest@2f7298b]" name="testSignUp_WithInvalidEmailFormat_ShouldNotSucceed" class="tests.SignUpTest"/>
+        <method signature="SignUpTest.testSignUp_WithValidCredentials_ShouldSucceed()[pri:0, instance:tests.SignUpTest@2f7298b]" name="testSignUp_WithValidCredentials_ShouldSucceed" class="tests.SignUpTest"/>
+        <method signature="SignUpTest.testSignUp_WithWeakPassword_ShouldShowValidationError()[pri:0, instance:tests.SignUpTest@2f7298b]" name="testSignUp_WithWeakPassword_ShouldShowValidationError" class="tests.SignUpTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="SignInTest.testSignIn_WithValidCredentials_ShouldSucceed()[pri:0, instance:tests.SignInTest@27ce24aa]" name="testSignIn_WithValidCredentials_ShouldSucceed" class="tests.SignInTest"/>
+        <method signature="SignOutTest.testSignOut_Button_ShouldBeVisibleAfterLogin()[pri:0, instance:tests.SignOutTest@16ec5519]" name="testSignOut_Button_ShouldBeVisibleAfterLogin" class="tests.SignOutTest"/>
+        <method signature="SignOutTest.testSignOut_WhenLoggedIn_ShouldRedirectToLogin()[pri:0, instance:tests.SignOutTest@16ec5519]" name="testSignOut_WhenLoggedIn_ShouldRedirectToLogin" class="tests.SignOutTest"/>
+        <method signature="SignUpTest.testSignUp_WithValidCredentials_ShouldSucceed()[pri:0, instance:tests.SignUpTest@2f7298b]" name="testSignUp_WithValidCredentials_ShouldSucceed" class="tests.SignUpTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2025-05-01T14:50:05 IST" name="Surefire test" finished-at="2025-05-01T14:50:59 IST" duration-ms="53597">
+      <class name="tests.SignUpTest">
+        <test-method is-config="true" signature="clickOnGetStarted()[pri:0, instance:tests.SignUpTest@2f7298b]" started-at="2025-05-01T14:50:41 IST" name="clickOnGetStarted" finished-at="2025-05-01T14:50:43 IST" duration-ms="1702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnGetStarted -->
+        <test-method signature="testSignUp_ConfirmPasswordNotMatching_ShouldNotSucceed()[pri:0, instance:tests.SignUpTest@2f7298b]" started-at="2025-05-01T14:50:43 IST" name="testSignUp_ConfirmPasswordNotMatching_ShouldNotSucceed" finished-at="2025-05-01T14:50:43 IST" duration-ms="445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUp_ConfirmPasswordNotMatching_ShouldNotSucceed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignUpTest@2f7298b]" started-at="2025-05-01T14:50:43 IST" name="tearDown" finished-at="2025-05-01T14:50:43 IST" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="clickOnGetStarted()[pri:0, instance:tests.SignUpTest@2f7298b]" started-at="2025-05-01T14:50:43 IST" name="clickOnGetStarted" finished-at="2025-05-01T14:50:45 IST" duration-ms="1760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnGetStarted -->
+        <test-method signature="testSignUp_WithDuplicateEmail_ShouldShowAnAlert()[pri:0, instance:tests.SignUpTest@2f7298b]" started-at="2025-05-01T14:50:45 IST" name="testSignUp_WithDuplicateEmail_ShouldShowAnAlert" finished-at="2025-05-01T14:50:46 IST" duration-ms="1568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUp_WithDuplicateEmail_ShouldShowAnAlert -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignUpTest@2f7298b]" started-at="2025-05-01T14:50:46 IST" name="tearDown" finished-at="2025-05-01T14:50:47 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="clickOnGetStarted()[pri:0, instance:tests.SignUpTest@2f7298b]" started-at="2025-05-01T14:50:47 IST" name="clickOnGetStarted" finished-at="2025-05-01T14:50:48 IST" duration-ms="1701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnGetStarted -->
+        <test-method signature="testSignUp_WithEmptyFields_ShouldNotSucceed()[pri:0, instance:tests.SignUpTest@2f7298b]" started-at="2025-05-01T14:50:48 IST" name="testSignUp_WithEmptyFields_ShouldNotSucceed" finished-at="2025-05-01T14:50:49 IST" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUp_WithEmptyFields_ShouldNotSucceed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignUpTest@2f7298b]" started-at="2025-05-01T14:50:49 IST" name="tearDown" finished-at="2025-05-01T14:50:49 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="clickOnGetStarted()[pri:0, instance:tests.SignUpTest@2f7298b]" started-at="2025-05-01T14:50:49 IST" name="clickOnGetStarted" finished-at="2025-05-01T14:50:51 IST" duration-ms="1807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnGetStarted -->
+        <test-method signature="testSignUp_WithInvalidEmailFormat_ShouldNotSucceed()[pri:0, instance:tests.SignUpTest@2f7298b]" started-at="2025-05-01T14:50:51 IST" name="testSignUp_WithInvalidEmailFormat_ShouldNotSucceed" finished-at="2025-05-01T14:50:51 IST" duration-ms="420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUp_WithInvalidEmailFormat_ShouldNotSucceed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignUpTest@2f7298b]" started-at="2025-05-01T14:50:51 IST" name="tearDown" finished-at="2025-05-01T14:50:51 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="clickOnGetStarted()[pri:0, instance:tests.SignUpTest@2f7298b]" started-at="2025-05-01T14:50:51 IST" name="clickOnGetStarted" finished-at="2025-05-01T14:50:53 IST" duration-ms="1673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnGetStarted -->
+        <test-method signature="testSignUp_WithValidCredentials_ShouldSucceed()[pri:0, instance:tests.SignUpTest@2f7298b]" started-at="2025-05-01T14:50:53 IST" name="testSignUp_WithValidCredentials_ShouldSucceed" finished-at="2025-05-01T14:50:56 IST" duration-ms="3180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUp_WithValidCredentials_ShouldSucceed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignUpTest@2f7298b]" started-at="2025-05-01T14:50:56 IST" name="tearDown" finished-at="2025-05-01T14:50:56 IST" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="clickOnGetStarted()[pri:0, instance:tests.SignUpTest@2f7298b]" started-at="2025-05-01T14:50:56 IST" name="clickOnGetStarted" finished-at="2025-05-01T14:50:58 IST" duration-ms="1602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnGetStarted -->
+        <test-method signature="testSignUp_WithWeakPassword_ShouldShowValidationError()[pri:0, instance:tests.SignUpTest@2f7298b]" started-at="2025-05-01T14:50:58 IST" name="testSignUp_WithWeakPassword_ShouldShowValidationError" finished-at="2025-05-01T14:50:59 IST" duration-ms="562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUp_WithWeakPassword_ShouldShowValidationError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignUpTest@2f7298b]" started-at="2025-05-01T14:50:59 IST" name="tearDown" finished-at="2025-05-01T14:50:59 IST" duration-ms="324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SignUpTest -->
+      <class name="tests.SignOutTest">
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:tests.SignOutTest@16ec5519]" started-at="2025-05-01T14:50:19 IST" name="loginToApp" finished-at="2025-05-01T14:50:22 IST" duration-ms="2310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="testSignOut_AccessGetStartedUrl_ShouldRedirectToHomePage()[pri:0, instance:tests.SignOutTest@16ec5519]" started-at="2025-05-01T14:50:22 IST" name="testSignOut_AccessGetStartedUrl_ShouldRedirectToHomePage" finished-at="2025-05-01T14:50:23 IST" duration-ms="1977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignOut_AccessGetStartedUrl_ShouldRedirectToHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignOutTest@16ec5519]" started-at="2025-05-01T14:50:23 IST" name="tearDown" finished-at="2025-05-01T14:50:24 IST" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:tests.SignOutTest@16ec5519]" started-at="2025-05-01T14:50:24 IST" name="loginToApp" finished-at="2025-05-01T14:50:26 IST" duration-ms="2253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="testSignOut_AccessLaunchChildNetworkPage_ShouldRedirectToHomePage()[pri:0, instance:tests.SignOutTest@16ec5519]" started-at="2025-05-01T14:50:26 IST" name="testSignOut_AccessLaunchChildNetworkPage_ShouldRedirectToHomePage" finished-at="2025-05-01T14:50:28 IST" duration-ms="1993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignOut_AccessLaunchChildNetworkPage_ShouldRedirectToHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignOutTest@16ec5519]" started-at="2025-05-01T14:50:28 IST" name="tearDown" finished-at="2025-05-01T14:50:28 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:tests.SignOutTest@16ec5519]" started-at="2025-05-01T14:50:28 IST" name="loginToApp" finished-at="2025-05-01T14:50:30 IST" duration-ms="2184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="testSignOut_AccessOnboardingPage_ShouldRedirectToHomePage()[pri:0, instance:tests.SignOutTest@16ec5519]" started-at="2025-05-01T14:50:30 IST" name="testSignOut_AccessOnboardingPage_ShouldRedirectToHomePage" finished-at="2025-05-01T14:50:32 IST" duration-ms="1946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignOut_AccessOnboardingPage_ShouldRedirectToHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignOutTest@16ec5519]" started-at="2025-05-01T14:50:32 IST" name="tearDown" finished-at="2025-05-01T14:50:33 IST" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:tests.SignOutTest@16ec5519]" started-at="2025-05-01T14:50:33 IST" name="loginToApp" finished-at="2025-05-01T14:50:35 IST" duration-ms="2113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="testSignOut_Button_ShouldBeVisibleAfterLogin()[pri:0, instance:tests.SignOutTest@16ec5519]" started-at="2025-05-01T14:50:35 IST" name="testSignOut_Button_ShouldBeVisibleAfterLogin" finished-at="2025-05-01T14:50:36 IST" duration-ms="1401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignOut_Button_ShouldBeVisibleAfterLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignOutTest@16ec5519]" started-at="2025-05-01T14:50:36 IST" name="tearDown" finished-at="2025-05-01T14:50:36 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:tests.SignOutTest@16ec5519]" started-at="2025-05-01T14:50:36 IST" name="loginToApp" finished-at="2025-05-01T14:50:39 IST" duration-ms="2210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="testSignOut_WhenLoggedIn_ShouldRedirectToLogin()[pri:0, instance:tests.SignOutTest@16ec5519]" started-at="2025-05-01T14:50:39 IST" name="testSignOut_WhenLoggedIn_ShouldRedirectToLogin" finished-at="2025-05-01T14:50:41 IST" duration-ms="2146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignOut_WhenLoggedIn_ShouldRedirectToLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignOutTest@16ec5519]" started-at="2025-05-01T14:50:41 IST" name="tearDown" finished-at="2025-05-01T14:50:41 IST" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SignOutTest -->
+      <class name="tests.SignInTest">
+        <test-method is-config="true" signature="clickOnGetStarted()[pri:0, instance:tests.SignInTest@27ce24aa]" started-at="2025-05-01T14:50:05 IST" name="clickOnGetStarted" finished-at="2025-05-01T14:50:08 IST" duration-ms="2344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnGetStarted -->
+        <test-method signature="testSignIn_WithEmptyFields_ShouldNotProceed()[pri:0, instance:tests.SignInTest@27ce24aa]" started-at="2025-05-01T14:50:08 IST" name="testSignIn_WithEmptyFields_ShouldNotProceed" finished-at="2025-05-01T14:50:08 IST" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignIn_WithEmptyFields_ShouldNotProceed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignInTest@27ce24aa]" started-at="2025-05-01T14:50:08 IST" name="tearDown" finished-at="2025-05-01T14:50:08 IST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="clickOnGetStarted()[pri:0, instance:tests.SignInTest@27ce24aa]" started-at="2025-05-01T14:50:08 IST" name="clickOnGetStarted" finished-at="2025-05-01T14:50:10 IST" duration-ms="1765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnGetStarted -->
+        <test-method signature="testSignIn_WithUnregisteredEmail_ShouldShowError()[pri:0, instance:tests.SignInTest@27ce24aa]" started-at="2025-05-01T14:50:10 IST" name="testSignIn_WithUnregisteredEmail_ShouldShowError" finished-at="2025-05-01T14:50:12 IST" duration-ms="1637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignIn_WithUnregisteredEmail_ShouldShowError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignInTest@27ce24aa]" started-at="2025-05-01T14:50:12 IST" name="tearDown" finished-at="2025-05-01T14:50:12 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="clickOnGetStarted()[pri:0, instance:tests.SignInTest@27ce24aa]" started-at="2025-05-01T14:50:12 IST" name="clickOnGetStarted" finished-at="2025-05-01T14:50:13 IST" duration-ms="1596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnGetStarted -->
+        <test-method signature="testSignIn_WithValidCredentials_ShouldSucceed()[pri:0, instance:tests.SignInTest@27ce24aa]" started-at="2025-05-01T14:50:13 IST" name="testSignIn_WithValidCredentials_ShouldSucceed" finished-at="2025-05-01T14:50:16 IST" duration-ms="2126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignIn_WithValidCredentials_ShouldSucceed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignInTest@27ce24aa]" started-at="2025-05-01T14:50:16 IST" name="tearDown" finished-at="2025-05-01T14:50:16 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="clickOnGetStarted()[pri:0, instance:tests.SignInTest@27ce24aa]" started-at="2025-05-01T14:50:16 IST" name="clickOnGetStarted" finished-at="2025-05-01T14:50:17 IST" duration-ms="1532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnGetStarted -->
+        <test-method signature="testSignIn_WithWrongPassword_ShouldShowError()[pri:0, instance:tests.SignInTest@27ce24aa]" started-at="2025-05-01T14:50:17 IST" name="testSignIn_WithWrongPassword_ShouldShowError" finished-at="2025-05-01T14:50:19 IST" duration-ms="1625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignIn_WithWrongPassword_ShouldShowError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignInTest@27ce24aa]" started-at="2025-05-01T14:50:19 IST" name="tearDown" finished-at="2025-05-01T14:50:19 IST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SignInTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

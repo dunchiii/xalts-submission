@@ -1,0 +1,23 @@
+Test Case ID,Feature,Scenario,Test Type,Execution Type,Steps,Test Data,Expected Result,Outcome
+TC-001,Sign Up,Valid sign up,Functional,Manual + Automated,"Navigate to sign up page, enter valid email & strong password, confirm password, click Submit",validuser@example.com / Welcome@123,User is redirected to dashboard,Success
+TC-002,Sign Up,Invalid email format,Validation,Manual,"Enter email without '@', click Submit",invalidemail / Welcome@123,Error message shown for invalid email,Failure
+TC-003,Sign Up,Weak password (missing special char),Validation,Manual,"Enter valid email, weak password, click Submit",user@example.com / Welcome123,Password strength error shown,Failure
+TC-004,Sign Up,Duplicate email,Functional,Manual + Automated,"Enter already registered email and password, click Submit",existinguser@example.com / Welcome@123,Alert shown: email already in use,Failure
+TC-005,Sign Up,Empty fields,Validation,Manual,"Leave all fields blank, click Submit",empty / empty,Sign Up button disabled or errors shown,Failure
+TC-006,Sign In,Valid login,Functional,Manual + Automated,"Enter correct email and password, click Login",validuser@example.com / Welcome@123,User is logged in and redirected to dashboard,Success
+TC-007,Sign In,Wrong password,Functional,Manual + Automated,Enter correct email but wrong password,validuser@example.com / Wrong@123,Error message: Incorrect password,Failure
+TC-008,Sign In,Unregistered email,Validation,Manual,"Enter email not in system, click Login",unreg@example.com / Welcome@123,Error: User not found,Failure
+TC-009,Sign In,Empty fields,Validation,Manual,"Leave email and password blank, click Login",- / -,Sign In button disabled,Failure
+TC-010,Sign Out,Valid sign out,Functional,Manual + Automated,"Login, click Sign Out",-,User is redirected to home page,Success
+TC-011,Sign Out,Access dashboard after logout,Security,Manual,"Logout, then manually enter dashboard URL",-,Redirected to home page,Success
+TC-012,Node Onboarding,Add valid node,Functional,Manual,"Enter Node ID and valid IP, click Add",NodeID-101 / 192.168.1.1,Node appears in list,Success
+TC-013,Node Onboarding,Invalid IP address,Validation,Manual,Enter invalid IP format,NodeID-102 / 999.999.1.1,Error shown,Failure
+TC-014,Node Onboarding,Missing Node ID,Validation,Manual,Leave Node ID blank,/ 192.168.1.2,Add Node button disabled,Failure
+TC-015,Wallet Addition,Add valid wallet,Functional,Manual,"Enter wallet address and permission, click Add",0xAbc... / Transaction Submission,Wallet added to list,Success
+TC-016,Wallet Addition,Invalid wallet address,Validation,Manual,Enter malformed wallet address,0x123,Error shown,Failure
+TC-017,Submit Request,Valid node + wallet submission,Integration,Manual,"Add node and wallet, click Submit",Valid combo,Success message shown,Success
+TC-018,Submit Request,Submit with no wallets,Validation,Manual,Add node but skip wallet step,-,Submit button disabled or error shown,Failure
+TC-019,Submit Request,Submit with no nodes,Validation,Manual,Add wallet but no nodes,-,Submit button disabled or error shown,Failure
+TC-020,Private Blockchain,Create valid network,Functional,Manual,"Enter network name, wallet, nodes, click Submit",TestNet1 / valid wallet,Chain created successfully,Success
+TC-021,Private Blockchain,Missing network name,Validation,Manual,Leave network name blank,-,Error shown or submit blocked,Failure
+TC-022,Private Blockchain,Invalid wallet,Validation,Manual,Enter incorrect wallet address,0xXYZ,Validation error shown,Failure

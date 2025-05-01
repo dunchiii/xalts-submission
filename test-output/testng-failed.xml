@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Xalts-Test-Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="testComponents.TestAnalyzerListener"/>
+  </listeners>
+  <test thread-count="5" parallel="classes" name="All-Test(failed)">
+    <classes>
+      <class name="tests.SignUpTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="clickOnGetStarted"/>
+          <include name="testSignUp_WithValidCredentials_ShouldSucceed"/>
+        </methods>
+      </class> <!-- tests.SignUpTest -->
+    </classes>
+  </test> <!-- All-Test(failed) -->
+</suite> <!-- Failed suite [Xalts-Test-Suite] -->

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-01T14:26:12 IST" name="Xalts-Sign-out-Tests-Suit" finished-at="2025-05-01T14:26:33 IST" duration-ms="21481">
+    <groups>
+      <group name="Regression">
+        <method signature="SignOutTest.testSignOut_AccessGetStartedUrl_ShouldRedirectToHomePage()[pri:0, instance:tests.SignOutTest@1f2586d6]" name="testSignOut_AccessGetStartedUrl_ShouldRedirectToHomePage" class="tests.SignOutTest"/>
+        <method signature="SignOutTest.testSignOut_AccessLaunchChildNetworkPage_ShouldRedirectToHomePage()[pri:0, instance:tests.SignOutTest@1f2586d6]" name="testSignOut_AccessLaunchChildNetworkPage_ShouldRedirectToHomePage" class="tests.SignOutTest"/>
+        <method signature="SignOutTest.testSignOut_AccessOnboardingPage_ShouldRedirectToHomePage()[pri:0, instance:tests.SignOutTest@1f2586d6]" name="testSignOut_AccessOnboardingPage_ShouldRedirectToHomePage" class="tests.SignOutTest"/>
+        <method signature="SignOutTest.testSignOut_Button_ShouldBeVisibleAfterLogin()[pri:0, instance:tests.SignOutTest@1f2586d6]" name="testSignOut_Button_ShouldBeVisibleAfterLogin" class="tests.SignOutTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="SignOutTest.testSignOut_Button_ShouldBeVisibleAfterLogin()[pri:0, instance:tests.SignOutTest@1f2586d6]" name="testSignOut_Button_ShouldBeVisibleAfterLogin" class="tests.SignOutTest"/>
+        <method signature="SignOutTest.testSignOut_WhenLoggedIn_ShouldRedirectToLogin()[pri:0, instance:tests.SignOutTest@1f2586d6]" name="testSignOut_WhenLoggedIn_ShouldRedirectToLogin" class="tests.SignOutTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2025-05-01T14:26:12 IST" name="Sign-in-Tests" finished-at="2025-05-01T14:26:33 IST" duration-ms="21481">
+      <class name="tests.SignOutTest">
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:tests.SignOutTest@1f2586d6]" started-at="2025-05-01T14:26:12 IST" name="loginToApp" finished-at="2025-05-01T14:26:15 IST" duration-ms="2966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="testSignOut_AccessGetStartedUrl_ShouldRedirectToHomePage()[pri:0, instance:tests.SignOutTest@1f2586d6]" started-at="2025-05-01T14:26:15 IST" name="testSignOut_AccessGetStartedUrl_ShouldRedirectToHomePage" finished-at="2025-05-01T14:26:17 IST" duration-ms="2271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignOut_AccessGetStartedUrl_ShouldRedirectToHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignOutTest@1f2586d6]" started-at="2025-05-01T14:26:18 IST" name="tearDown" finished-at="2025-05-01T14:26:18 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:tests.SignOutTest@1f2586d6]" started-at="2025-05-01T14:26:18 IST" name="loginToApp" finished-at="2025-05-01T14:26:20 IST" duration-ms="1907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="testSignOut_AccessLaunchChildNetworkPage_ShouldRedirectToHomePage()[pri:0, instance:tests.SignOutTest@1f2586d6]" started-at="2025-05-01T14:26:20 IST" name="testSignOut_AccessLaunchChildNetworkPage_ShouldRedirectToHomePage" finished-at="2025-05-01T14:26:21 IST" duration-ms="1600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignOut_AccessLaunchChildNetworkPage_ShouldRedirectToHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignOutTest@1f2586d6]" started-at="2025-05-01T14:26:21 IST" name="tearDown" finished-at="2025-05-01T14:26:22 IST" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:tests.SignOutTest@1f2586d6]" started-at="2025-05-01T14:26:22 IST" name="loginToApp" finished-at="2025-05-01T14:26:23 IST" duration-ms="1984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="testSignOut_AccessOnboardingPage_ShouldRedirectToHomePage()[pri:0, instance:tests.SignOutTest@1f2586d6]" started-at="2025-05-01T14:26:23 IST" name="testSignOut_AccessOnboardingPage_ShouldRedirectToHomePage" finished-at="2025-05-01T14:26:25 IST" duration-ms="1604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignOut_AccessOnboardingPage_ShouldRedirectToHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignOutTest@1f2586d6]" started-at="2025-05-01T14:26:25 IST" name="tearDown" finished-at="2025-05-01T14:26:25 IST" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:tests.SignOutTest@1f2586d6]" started-at="2025-05-01T14:26:25 IST" name="loginToApp" finished-at="2025-05-01T14:26:27 IST" duration-ms="1820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="testSignOut_Button_ShouldBeVisibleAfterLogin()[pri:0, instance:tests.SignOutTest@1f2586d6]" started-at="2025-05-01T14:26:27 IST" name="testSignOut_Button_ShouldBeVisibleAfterLogin" finished-at="2025-05-01T14:26:29 IST" duration-ms="1397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignOut_Button_ShouldBeVisibleAfterLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignOutTest@1f2586d6]" started-at="2025-05-01T14:26:29 IST" name="tearDown" finished-at="2025-05-01T14:26:29 IST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:tests.SignOutTest@1f2586d6]" started-at="2025-05-01T14:26:29 IST" name="loginToApp" finished-at="2025-05-01T14:26:31 IST" duration-ms="1983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="testSignOut_WhenLoggedIn_ShouldRedirectToLogin()[pri:0, instance:tests.SignOutTest@1f2586d6]" started-at="2025-05-01T14:26:31 IST" name="testSignOut_WhenLoggedIn_ShouldRedirectToLogin" finished-at="2025-05-01T14:26:33 IST" duration-ms="2413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignOut_WhenLoggedIn_ShouldRedirectToLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignOutTest@1f2586d6]" started-at="2025-05-01T14:26:33 IST" name="tearDown" finished-at="2025-05-01T14:26:33 IST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SignOutTest -->
+    </test> <!-- Sign-in-Tests -->
+  </suite> <!-- Xalts-Sign-out-Tests-Suit -->
+</testng-results>
