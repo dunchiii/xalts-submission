@@ -11,7 +11,7 @@ This repository contains the solution for the QA Automation assignment provided 
   - **Sign Up**
   - **Sign In**
   - **Sign Out**
-- Built with **Selenium + TestNG**
+- Built with **Selenium + TestNG + PageObjectModel + PageFactory + ExtentReports**
 - Includes:
   - Grouped execution (`Smoke`, `Regression`)
   - Screenshot capture for both passed and failed tests
